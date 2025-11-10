@@ -41,6 +41,7 @@ Example Response:
     "/api/v1/vehicle/bikes/"
   ]
 }
+```
 
 ---
 
@@ -73,12 +74,12 @@ Access locally at:
 
 ## 🧩 API Endpoints
 
-| Endpoint | Method | Description |
-|-----------|--------|-------------|
-| `/api/v1/vehicle/cars/` | GET, POST | List all cars or create a new car |
-| `/api/v1/vehicle/cars/<id>/` | GET, PUT, DELETE | Retrieve, update, or delete a car |
-| `/api/v1/vehicle/bikes/` | GET, POST | List all bikes or create a new bike |
-| `/api/v1/vehicle/bikes/<id>/` | GET, PUT, DELETE | Retrieve, update, or delete a bike |
+| Endpoint                         | Method              | Description                           |
+|----------------------------------|---------------------|---------------------------------------|
+| `/api/v1/vehicle/cars/`          | GET, POST           | List all cars or create a new car     |
+| `/api/v1/vehicle/cars/<id>/`     | GET, PUT, PATCH, DELETE | Retrieve, update (full/partial), or delete a car |
+| `/api/v1/vehicle/bikes/`         | GET, POST           | List all bikes or create a new bike   |
+| `/api/v1/vehicle/bikes/<id>/`    | GET, PUT, PATCH, DELETE | Retrieve, update (full/partial), or delete a bike |
 
 ---
 
